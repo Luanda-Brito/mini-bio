@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+  background-color: pink;
+  box-sizing: border-box;
+}
+
+.conteudo {
+  width: 50%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: pink;
+}
+
+.foto {
+  width: 250px;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p, li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+footer {
+  background-color: rgb(173, 173, 173);
+  width: 100%; /* Garante que o footer ocupe toda a largura da página */
+  padding: 10px 0; /* Espaçamento interno superior e inferior */
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+
+h5 {
+  background-color: rgb(173, 173, 173);
+  color: black;
+  padding: 10px 0; /* Adiciona espaçamento superior e inferior */
+  border-radius: 5px; /* Remove bordas arredondadas para ocupar toda a largura */
+  display: block; /* Garante que o h5 ocupe toda a largura */
+  margin: 0; /* Remove margens para garantir que cubra toda a largura */
+}/*# sourceMappingURL=style.css.map */
